@@ -1,1 +1,1 @@
-SUBSYSTEM=="net", DRIVERS=="usb", ACTION=="add", RUN+="/opt/ClusterNetworkingAgent.sh"
+SUBSYSTEM=="net", DRIVERS=="usb", RUN+="/opt/ClusterNetworkingAgent.sh"
