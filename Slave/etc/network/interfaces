@@ -1,0 +1,6 @@
+auto lo
+iface lo inet loopback
+
+allow-hotplug usb0
+iface usb0 inet dhcp
+
